@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: whitesmoke;
+}
+
+.navbar {
+    background: white;
+    padding: 14px 24px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+    background: white;
+    color: blue;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+h2 {
+    margin-bottom: 24px;
+    font-size: 28px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.card span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.card strong {
+    font-size: 26px;
+    color: #111827;
+}
+
+.card.revenue strong {
+    color: #2d9352;
+}
+
+
+.quick-links {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.quick-links h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.quick-links a {
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    padding: 10px 16px;
+    background: rgb(113, 113, 216);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.quick-links a:hover {
+    background: #1d4ed8;
+}
