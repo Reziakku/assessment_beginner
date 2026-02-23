@@ -99,3 +99,14 @@ h2 {
 .quick-links a:hover {
     background: #1d4ed8;
 }
+
+.Container2 {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.Container2, h2 {
+    margin-bottom: 24px;
+    font-size: 28px;
+}

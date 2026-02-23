@@ -1,0 +1,123 @@
+.Container {
+    width: 600px;
+    margin: 60px auto;
+    margin-block-start: 20px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: auto;
+}
+
+form{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+button { 
+    align-self: center;
+    cursor: pointer; 
+    padding: .5rem 1rem; 
+    background-color: rgb(113, 113, 216);
+    color: white; 
+    margin-top: 20px;
+    border: none; 
+    border-radius: 10px; 
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 12px; 
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.2s ease;
+    margin-top: 15px;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.Container2{
+    max-width: 1000px;
+    margin: 40px auto;
+    margin-block-start: 20px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.clients_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.clients_table th {
+    background-color: #f4f5f7;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.clients_table td {
+    padding: 12px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.clients_table tr:hover {
+    background-color: #f9f9ff;
+}
+
+.clients_table a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.clients_table a:hover {
+    text-decoration: underline;
+}
+
+.add_btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.add_btn:hover {
+    background-color: #574fd6;
+}

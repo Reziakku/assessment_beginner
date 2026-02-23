@@ -13,7 +13,7 @@ $revenue = $revRow['s'];
 <head>
     <meta charset="utf-8">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/assessment_beginner/Styles/style.css">
+    <link rel="stylesheet" href="../assessment_beginner/Styles/style.css">
 </head>
 <body>
 
