@@ -8,6 +8,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
     <meta charset="utf-8"><title>Clients</title>
     <link rel="stylesheet" href="../Styles/style.css">
     <link rel="stylesheet" href="../Styles/pages.css">
+    <link rel="stylesheet" href="../Styles/clients_list.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>

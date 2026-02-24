@@ -61,7 +61,7 @@ if ($full_name == "" || $email == "") {
     <input type="text" name="address" value="<?php echo $client['address']; ?>"><br><br>
     </div>
     
-    <button type="submit" name="update">Update</button>
+    <button type="submit" name="update" class="update_btn">Update</button>
 </form>
 </div>
 </body>

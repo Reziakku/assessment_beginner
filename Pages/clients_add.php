@@ -37,25 +37,25 @@ if ($full_name == "" || $email == "") {
 <form method="post">
     <div>
     <label>Full Name*</label><br>
-    <input type="text" name="full_name" placeholder="Full Name"><br><br>
+    <input type="text" name="full_name" placeholder="Please enter your Full Name"><br><br>
     </div>
 
     <div>
     <label>Email*</label><br>
-    <input type="text" name="email" placeholder="Email"><br><br>
+    <input type="text" name="email" placeholder="Please enter your Email Address"><br><br>
     </div>
 
     <div>
     <label>Phone Number</label><br>
-    <input type="text" name="phone" placeholder="Phone Number"><br><br>
+    <input type="text" name="phone" placeholder="Please enter your Phone Number"><br><br>
     </div>
 
     <div>
     <label>Address</label><br>
-    <input type="text" name="address" placeholder="Address"><br><br>
+    <input type="text" name="address" placeholder="Please enter your Address"><br><br>
     </div>
     
-    <button type="submit" name="save">Save</button>
+    <button type="submit" name="save" class="submit_btn">Save</button>
 </form>
 </div>
 </body>
