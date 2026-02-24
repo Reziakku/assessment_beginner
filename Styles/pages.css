@@ -133,11 +133,12 @@ label{
 textarea {
     width: 100%;
     padding: 10px 12px;
-    margin-top: 15px;
+    height: 130px;
+    margin-top: 10px;
     border-radius: 6px;
     border: 1px solid #ddd;
     font-size: 14px;
-    resize: vertical;  
+    resize: none;  
     transition: 0.2s ease;
 }
 
