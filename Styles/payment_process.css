@@ -1,0 +1,103 @@
+.Container_process{
+    max-width: 1000px;
+    margin: 40px auto;
+    margin-block-start: 20px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: auto;
+}
+
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.save_payment {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.save_payment:hover {
+    background-color: #574fd6;
+    transform: translateY(-2px);
+}
+
+.save_payment:active {
+    transform: scale(0.98);
+}
+
+form{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 10px 12px; 
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.2s ease;
+    margin-top: 15px;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.card {
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.card span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.card strong {
+    font-size: 26px;
+    color: #111827;
+}
